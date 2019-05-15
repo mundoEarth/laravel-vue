@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/{any?}', function () {
+// Route::get('/{any?}', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('skills', function() {
+	return ['Laravel', 'Vue', 'PHP', 'Javascript'];
+});
+
+Route::get('/projects/create', 'ProjectController@create');
