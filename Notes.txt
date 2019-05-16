@@ -1,0 +1,18 @@
+Notes:
+command compile vue script
+
+* npm run development -- --watch
+
+
+
+
+============================
+ BIND FUCTION 
+---------------------------
+* Function​.prototype​.bind()
+
+
+
+last episode
+
+https://laracasts.com/series/learn-vue-2-step-by-step/episodes/21

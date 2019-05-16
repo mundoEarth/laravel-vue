@@ -25,3 +25,5 @@ Route::get('skills', function() {
 });
 
 Route::get('/projects/create', 'ProjectController@create');
+
+Route::post('/projects', 'ProjectController@store');
